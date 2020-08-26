@@ -1,3 +1,83 @@
-p {
-  font-family: Lato;
+body
+{
+    background-color:purple;
+    background-position: fixed;
+}
+.side
+{
+    margin-left: 6cm;
+}
+.mepage
+{
+    background-color:whitesmoke;
+    border: transparent solid 1cm;
+    border-radius: 1cm;
+}
+h3{
+    color:rebeccapurple;
+    font-variant-caps: all-small-caps;
+   margin-left: 8cm;
+}
+h2{
+    color:rebeccapurple;
+    font-variant-caps: all-small-caps;
+   margin-left: 3cm;
+padding-top: 0.2cm;
+padding-bottom: 0.5cm;
+}
+.skills
+{
+    margin-left: 1cm;
+    font-weight: lighter;
+    font-variant-caps: all-small-caps;
+    margin-top: 0.2cm;
+    margin-bottom: 0.5cm;
+
+}
+.infor
+{
+    padding: 80px 30px 50px 80 px;
+    margin: 0px 68px 1px 68px;
+    
+}
+p{
+    font-kerning: inherit;
+    font-style: italic;
+    font-stretch: ultra-expanded;
+    font-variant-caps: all-petite-caps;
+    font-weight: bolder;
+}
+
+
+
+.dropdowns
+{
+    position: relative;
+    display:inline-block ;
+
+}
+.dropdown-info
+{
+    display: none;
+    position: absolute;
+    background-color: rgb(153, 83, 153);
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0,0,2);
+    padding: 12px 16px;
+}
+
+.dropdowns:hover .dropdown-info
+{
+    display: block;
+}
+span{
+    margin-left: 9cm;
+    font-weight: bolder;
+    font-style: italic;
+    font-variant-caps: small-caps;
+}
+.last
+{
+    margin-top:2cm;
+    margin-left: 8cm;
 }
